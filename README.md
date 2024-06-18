@@ -1,1 +1,1 @@
-# php-app-shop
+# demo web app - coffee shop
