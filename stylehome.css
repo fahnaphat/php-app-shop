@@ -1,0 +1,64 @@
+body {
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: system-ui;
+}
+
+h4 {
+    font-family: system-ui;
+    font-weight: bold;
+    color: azure !important;
+    font-size: 40px !important;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue; 
+    color: white;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+
+.items-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black; */
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+p.nameitem {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: tomato;
+}
+
+p.priceitem {
+    margin-top: -10px;
+    font-size: 17px;
+    color: navy;
+}
+
+div.add-drink-btn {
+    padding: 15px 30px;
+    margin: 0 200px;
+}
+
+div.eidt-del-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 10px;
+}
+
+

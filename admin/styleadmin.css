@@ -1,0 +1,22 @@
+h4 {
+    font-family: system-ui;
+    font-weight: bold;
+    color: azure !important;
+    font-size: 40px !important;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue; 
+    color: white;
+}
+
+.card-header {
+    font-size: x-large;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 0 270px;
+    margin: 150px 0;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 9px 20px;
+    margin: 3px 0;
+    display: inline-block;
+}
